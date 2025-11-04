@@ -4,6 +4,7 @@
   <properties resource="db.properties"/>
   <typeAliases>
     <typeAlias type="com.sist.vo.CampingVO" alias="CampingVO"/>
+    <typeAlias type="com.sist.vo.CampingVO" alias="Camping_productVO"/>
   </typeAliases>
   <environments default="development">
     <environment id="development">
@@ -18,5 +19,7 @@
   </environments>
   <mappers>
     <mapper resource="com/sist/mapper/coupon-mapper.xml"/>
+    <mapper resource="com/sist/mapper/camping-mapper.xml"/>
+    <mapper resource="com/sist/mapper/main-mapper.xml"/>
   </mappers>
 </configuration>

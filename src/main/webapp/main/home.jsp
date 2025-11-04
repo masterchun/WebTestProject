@@ -79,17 +79,16 @@
         <div class="row">
             <div class="col-lg-4 col-md-4">
                 <div class="section-title">
-                    <h4>New product</h4>
+                    <h4>캠핑장</h4>
                 </div>
             </div>
             <div class="col-lg-8 col-md-8">
                 <ul class="filter__controls">
-                    <li class="active" data-filter="*">All</li>
-                    <li data-filter=".women">Women’s</li>
-                    <li data-filter=".men">Men’s</li>
-                    <li data-filter=".kid">Kid’s</li>
-                    <li data-filter=".accessories">Accessories</li>
-                    <li data-filter=".cosmetic">Cosmetics</li>
+                    <li class="active" data-filter="*">캠핑장</li>
+                    <li data-filter=".kid">할인 캠핑장</li>
+                    <li data-filter=".women">맛집</li>
+                    <li data-filter=".men">지역 축제</li>
+                    <li data-filter=".kid">할인 캠핑장</li>
                 </ul>
             </div>
         </div>
