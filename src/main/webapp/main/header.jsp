@@ -40,14 +40,15 @@
     <header class="header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-3 col-lg-2">
+                <div class="col-xl-2 col-lg-1">
                     <div class="header__logo">
                         <a href="./index.html"><img src="../front/img/allcamp.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-7">
+                <div class="col-xl-7 col-lg-8" style="margin-left: 70px;">
                     <nav class="header__menu">
                         <ul>
+                            <li><a href="./index.html">캠핑장</a></li>
                             <li><a href="./index.html">캠핑장</a></li>
                             <li><a href="#">캠핑 용품</a></li>
                             <li><a href="#">지역 맛집</a></li>
@@ -66,7 +67,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-3">
+                <div>
                     <div class="header__right">
                         <div class="header__right__auth">
                             <a href="#">로그인</a>

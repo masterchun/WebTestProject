@@ -16,10 +16,9 @@
                     <div class="categories__item categories__large__item set-bg"
                     data-setbg="../front/img/categories/category-1.jpg">
                     <div class="categories__text">
-                        <h1>Women’s fashion</h1>
-                        <p>Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore
-                        edolore magna aliquapendisse ultrices gravida.</p>
-                        <a href="#">Shop now</a>
+                        <h2>캠핑장</h2>
+                        <p>500개의 캠핑장</p>
+                        <a href="#">Show now</a>
                     </div>
                 </div>
             </div>
@@ -28,36 +27,36 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 p-0">
                         <div class="categories__item set-bg" data-setbg="../front/img/categories/category-2.jpg">
                             <div class="categories__text">
-                                <h4>Men’s fashion</h4>
+                                <h4>캠핑용품</h4>
                                 <p>358 items</p>
-                                <a href="#">Shop now</a>
+                                <a href="#">Show now</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 p-0">
                         <div class="categories__item set-bg" data-setbg="../front/img/categories/category-3.jpg">
                             <div class="categories__text">
-                                <h4>Kid’s fashion</h4>
+                                <h4>맛집</h4>
                                 <p>273 items</p>
-                                <a href="#">Shop now</a>
+                                <a href="#">Show now</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 p-0">
                         <div class="categories__item set-bg" data-setbg="../front/img/categories/category-4.jpg">
                             <div class="categories__text">
-                                <h4>Cosmetics</h4>
+                                <h4>축제</h4>
                                 <p>159 items</p>
-                                <a href="#">Shop now</a>
+                                <a href="#">Show now</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 p-0">
                         <div class="categories__item set-bg" data-setbg="../front/img/categories/category-5.jpg">
                             <div class="categories__text">
-                                <h4>Accessories</h4>
-                                <p>792 items</p>
-                                <a href="#">Shop now</a>
+                                <h4>쿠폰</h4>
+                                <p>지역별 할인 쿠폰 페이지</p>
+                                <a href="#">Show now</a>
                             </div>
                         </div>
                     </div>
@@ -88,7 +87,6 @@
                     <li data-filter=".kid">할인 캠핑장</li>
                     <li data-filter=".women">맛집</li>
                     <li data-filter=".men">지역 축제</li>
-                    <li data-filter=".kid">할인 캠핑장</li>
                 </ul>
             </div>
         </div>
@@ -144,22 +142,22 @@
                 <div class="banner__slider owl-carousel">
                     <div class="banner__item">
                         <div class="banner__text">
-                            <span>The Chloe Collection</span>
-                            <h1>The Project Jacket</h1>
+                            <span>The AllCamp Collection</span>
+                            <h1>The Camping Tent</h1>
                             <a href="#">Shop now</a>
                         </div>
                     </div>
                     <div class="banner__item">
                         <div class="banner__text">
-                            <span>The Chloe Collection</span>
-                            <h1>The Project Jacket</h1>
+                            <span>The AllCamp Collection</span>
+                            <h1>The Camping Bag</h1>
                             <a href="#">Shop now</a>
                         </div>
                     </div>
                     <div class="banner__item">
                         <div class="banner__text">
-                            <span>The Chloe Collection</span>
-                            <h1>The Project Jacket</h1>
+                            <span>The AllCamp Collection</span>
+                            <h1>The Camping Chair</h1>
                             <a href="#">Shop now</a>
                         </div>
                     </div>
@@ -183,7 +181,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="trend__content">
                     <div class="section-title">
-                        <h4>Hot Trend</h4>
+                        <h4>&nbsp;텐트</h4>
                     </div>
                     	
                     <c:forEach var="i" begin="1" end="3">
@@ -210,7 +208,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="trend__content">
                     <div class="section-title">
-                        <h4>Feature</h4>
+                        <h4>&nbsp;배낭</h4>
                     </div>
                     	<c:forEach var="i" begin="1" end="3">
                     <div class="trend__item">
@@ -226,7 +224,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 59.0</div>
+                            <div class="product__price">$ </div>
                         </div>
                     </div>
                         </c:forEach>
@@ -236,7 +234,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="trend__content">
                     <div class="section-title">
-                        <h4>Feature</h4>
+                        <h4>&nbsp;의자</h4>
                     </div>
                     	<c:forEach var="i" begin="1" end="3">
                     <div class="trend__item">
@@ -279,8 +277,10 @@
                 <div class="discount__text">
                     <div class="discount__text__title">
                         <span>Discount</span>
-                        <h2>Summer 2019</h2>
-                        <h5><span>Sale</span> 50%</h5>
+                        <div style="margin-top: 10px"></div>
+                        <h3>지역별 캠핑장 할인 쿠폰</h3>
+                        <div style="margin-top: 10px"></div>
+                        <h5><span>Sale</span> 30%</h5>
                     </div>
                     <div class="discount__countdown" id="countdown-time">
                         <div class="countdown__item">
@@ -300,7 +300,7 @@
                             <p>Sec</p>
                         </div>
                     </div>
-                    <a href="#">Shop now</a>
+                    <a href="../coupon/list.do">Show now</a>
                 </div>
             </div>
         </div>
@@ -349,6 +349,7 @@
 <div class="instagram">
     <div class="container-fluid">
         <div class="row">
+        	<c:forEach var="i" begin="1" end="6">
             <div class="col-lg-2 col-md-4 col-sm-4 p-0">
                 <div class="instagram__item set-bg" data-setbg="../front/img/instagram/insta-1.jpg">
                     <div class="instagram__text">
@@ -357,46 +358,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="../front/img/instagram/insta-2.jpg">
-                    <div class="instagram__text">
-                        <i class="fa fa-instagram"></i>
-                        <a href="#">@ ashion_shop</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="../front/img/instagram/insta-3.jpg">
-                    <div class="instagram__text">
-                        <i class="fa fa-instagram"></i>
-                        <a href="#">@ ashion_shop</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="../front/img/instagram/insta-4.jpg">
-                    <div class="instagram__text">
-                        <i class="fa fa-instagram"></i>
-                        <a href="#">@ ashion_shop</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="../front/img/instagram/insta-5.jpg">
-                    <div class="instagram__text">
-                        <i class="fa fa-instagram"></i>
-                        <a href="#">@ ashion_shop</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
-                <div class="instagram__item set-bg" data-setbg="../front/img/instagram/insta-6.jpg">
-                    <div class="instagram__text">
-                        <i class="fa fa-instagram"></i>
-                        <a href="#">@ ashion_shop</a>
-                    </div>
-                </div>
-            </div>
+			</c:forEach>
         </div>
     </div>
 </div>

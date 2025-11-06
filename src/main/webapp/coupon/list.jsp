@@ -45,7 +45,9 @@
                     <div class="single-post wow fadeInUp" data-wow-delay="0.1s">
                         <!-- Post Thumb -->
                         <div class="post-thumb">
+                          <a href="../coupon/list.do?id=${id }">
                             <img src="${vo.image }" alt="">
+                          </a>
                         </div>
                         <!-- Post Content -->
                         <div class="post-content">
@@ -76,7 +78,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="../coupon/list.do?id=${vo.id }">
                                 <h4 class="post-headline">${vo.name }</h4>
                             </a>
                         </div>

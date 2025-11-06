@@ -44,4 +44,10 @@ public class CouponModel {
 		
 		return "../main/main.jsp";
 	}
+	
+	@RequestMapping("coupon/detail.do")
+	public String coupon_detail(HttpServletRequest request, HttpServletResponse response) {
+		
+		return "../main/main.jsp";
+	}
 }
